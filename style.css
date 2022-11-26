@@ -167,7 +167,7 @@ button {
 @media (max-width: 70em) {
   .cards {
     min-height: 19rem;
-    background-image: url(../images/bg-main-mobile.png);
+    background-image: url(./images/bg-main-mobile.png);
     width: 100%;
     -webkit-box-align: start;
         -ms-flex-align: start;
