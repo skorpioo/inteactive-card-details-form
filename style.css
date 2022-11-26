@@ -289,7 +289,7 @@ button {
   width: 100%;
   margin-top: 3rem;
 }
-@media (max-width: 72em) {
+@media (max-width: 70em) {
   .form_section .success_msg button {
     margin-bottom: 5rem;
   }
@@ -304,7 +304,7 @@ button {
   width: var(--form-width);
   font-weight: var(--fw-semibold);
 }
-@media (max-width: 72em) {
+@media (max-width: 70em) {
   .form {
     margin-bottom: 5rem;
   }
