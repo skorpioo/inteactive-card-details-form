@@ -377,6 +377,11 @@ button {
   background: linear-gradient(var(--clr-neutral-100), var(--clr-neutral-100)) padding-box, linear-gradient(to right, var(--clr-gradient-start), var(--clr-gradient-end)) border-box;
   border: 1px solid transparent;
 }
+.form__item input:-webkit-autofill, .form__item input:-webkit-autofill:focus {
+  border: 1px solid var(--clr-neutral-500);
+  -webkit-box-shadow: 0 0 0px 40rem var(--clr-neutral-100) inset;
+          box-shadow: 0 0 0px 40rem var(--clr-neutral-100) inset;
+}
 .form__item .error_msg {
   font-size: var(--fs-small);
   color: var(--clr-error);
