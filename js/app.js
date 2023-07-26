@@ -108,12 +108,5 @@ window.onload = () => {
 };
 
 resetBtn.addEventListener('click', () => {
-	form.reset();
-	setCardNumber();
-	setCardName();
-	setCardMonth();
-	setCardYear();
-	setCardCvc();
-	form.classList.remove('hidden');
-	successMessage.classList.add('hidden');
+	document.location.reload(true);
 });
