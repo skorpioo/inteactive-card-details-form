@@ -1,3 +1,4 @@
+const form = document.querySelector('[data-form]');
 const cardNumber = document.querySelector('[data-card-number]');
 const formNumber = document.querySelector('[data-form-number]');
 const cardName = document.querySelector('[data-card-name]');
@@ -107,5 +108,5 @@ window.onload = () => {
 };
 
 resetBtn.addEventListener('click', () => {
-	document.location.reload(true);
+	form.reset();
 });
