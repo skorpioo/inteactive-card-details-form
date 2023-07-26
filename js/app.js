@@ -109,4 +109,6 @@ window.onload = () => {
 
 resetBtn.addEventListener('click', () => {
 	form.reset();
+	form.classList.remove('hidden');
+	successMessage.classList.add('hidden');
 });
